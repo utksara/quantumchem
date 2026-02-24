@@ -1,0 +1,24 @@
+[project]
+name = "quantumchem"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Utkarsh"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "qiskit (>=2.3.0,<3.0.0)",
+    "qiskit-nature (>=0.7.2)",
+    "qiskit-algorithms (>=0.4.0)",
+    "pennylane (>=0.44.0)",
+    "pyscf (>=2.12.1)",
+    "ipykernel (>=7.2.0)",
+    "matplotlib (>=3.10.7)",
+    "numpy (>=2.2.6)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
