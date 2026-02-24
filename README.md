@@ -58,3 +58,6 @@ python examples/vqd_h2.py
 - `pyscf`
 - `numpy`
 - `matplotlib`
+
+# Paper ( details related to VQE method)
+-  https://github.com/utksara/utksara.github.io/blob/master/files/Seminar_report.pdf
